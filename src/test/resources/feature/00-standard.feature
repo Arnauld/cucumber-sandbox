@@ -5,7 +5,5 @@ Feature: Standard documentation
 
     Given an standard OD
     Then the OD should have the following specifics
-      | Property      | Value      |
-      | Departure     |  Paris     |
-      | Arrival       |  Marseille |
-      | Comfort Class | 1st        |
+      | Departure | Arrival   | Comfort Class |
+      | Paris     | Marseille | 2nd           |

@@ -1,11 +1,14 @@
 package api;
 
+import java.util.Date;
+
 /**
  * @author <a href="http://twitter.com/aloyer">@aloyer</a>
  */
 public class OD {
-    public String departure;
-    public String arrival;
+    private String departure;
+    private String arrival;
+    private Date when;
 
     public OD(String departure, String arrival) {
         this.departure = departure;
@@ -18,5 +21,17 @@ public class OD {
 
     public String getArrival() {
         return arrival;
+    }
+
+    public void setDeparture(String departure) {
+        this.departure = departure;
+    }
+
+    public void setArrival(String arrival) {
+        this.arrival = arrival;
+    }
+
+    public void setWhen(Date when) {
+        this.when = when;
     }
 }
